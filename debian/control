@@ -1,0 +1,23 @@
+Source: adaptation-volla-mimameid
+Maintainer: Erik Inkinen <erik.inkinen@gmail.com>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/droidian-devices/adaptation-volla-mimameid
+Vcs-Git: https://github.com/droidian-devices/adaptation-volla-mimameid.git
+
+Package: adaptation-volla-mimameid
+Architecture: arm64
+Depends: ${misc:Depends},
+         linux-bootimage-volla-mimameid,
+         adaptation-hybris-api30-phone,
+         adaptation-volla-mimameid-configs,
+Description: adapatation-volla-mimameid - meta
+ Volla Phone 22 api30 adaptation metapackage
+
+Package: adaptation-volla-mimameid-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-volla-mimameid (= ${binary:Version}),
+Description: Volla Phone 22's specific adaptation configs
