@@ -20,4 +20,5 @@ Package: adaptation-volla-mimameid-configs
 Architecture: arm64
 Depends: ${misc:Depends},
          adaptation-volla-mimameid (= ${binary:Version}),
+         bsdextrautils,
 Description: Volla Phone 22's specific adaptation configs
