@@ -1,3 +1,4 @@
 /etc/udev/rules.d
 /usr/lib/droid-vendor-overlay
 /usr/lib/adaptation-volla-mimameid
+/usr/share/glib-2.0/schemas
