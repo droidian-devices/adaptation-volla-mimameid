@@ -12,7 +12,8 @@ Architecture: arm64
 Depends: ${misc:Depends},
          linux-bootimage-volla-mimameid,
          adaptation-hybris-api30-phone,
-         adaptation-volla-mimameid-configs,
+         adaptation-volla-mimameid-configs,         
+         droidian-quirks-full-resize,
 Description: adapatation-volla-mimameid - meta
  Volla Phone 22 api30 adaptation metapackage
 
