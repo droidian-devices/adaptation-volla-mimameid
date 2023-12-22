@@ -14,6 +14,7 @@ Depends: ${misc:Depends},
          adaptation-hybris-api30-phone,
          adaptation-volla-mimameid-configs,         
          droidian-quirks-full-resize,
+         droidian-camera,
 Description: adapatation-volla-mimameid - meta
  Volla Phone 22 api30 adaptation metapackage
 
