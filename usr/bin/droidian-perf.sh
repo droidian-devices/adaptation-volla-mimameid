@@ -31,5 +31,6 @@ mkdir -p /sys/fs/cgroup/schedtune
 
 mount -t cgroup -o schedtune stune /sys/fs/cgroup/schedtune
 
-[ -f /sys/fs/cgroup/schedtune/schedtune.boost ] && echo 20 > /sys/fs/cgroup/schedtune/schedtune.boost
+[ -f /sys/fs/cgroup/schedtune/schedtune.boost ] && echo 40 > /sys/fs/cgroup/schedtune/schedtune.boost
 [ -f /sys/fs/cgroup/schedtune/schedtune.prefer_idle ] && echo 1 > /sys/fs/cgroup/schedtune/schedtune.prefer_idle
+[ -f /sys/devices/system/cpu/sched/sched_boost ] && echo 1 > /sys/devices/system/cpu/sched/sched_boost
