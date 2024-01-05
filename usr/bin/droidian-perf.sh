@@ -34,3 +34,5 @@ mount -t cgroup -o schedtune stune /sys/fs/cgroup/schedtune
 [ -f /sys/fs/cgroup/schedtune/schedtune.boost ] && echo 40 > /sys/fs/cgroup/schedtune/schedtune.boost
 [ -f /sys/fs/cgroup/schedtune/schedtune.prefer_idle ] && echo 1 > /sys/fs/cgroup/schedtune/schedtune.prefer_idle
 [ -f /sys/devices/system/cpu/sched/sched_boost ] && echo 1 > /sys/devices/system/cpu/sched/sched_boost
+[ -f /proc/cpufreq/cpufreq_stress_test ] && echo 1 > /proc/cpufreq/cpufreq_stress_test
+[ -f /proc/gpufreq/gpufreq_opp_stress_test ] && echo 1 > /proc/gpufreq/gpufreq_opp_stress_test
