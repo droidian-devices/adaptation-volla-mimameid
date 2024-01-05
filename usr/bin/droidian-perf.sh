@@ -40,3 +40,4 @@ mount -t cgroup -o schedtune stune /sys/fs/cgroup/schedtune
 [ -f /sys/module/ged/parameters/boost_extra ] && echo 1 > /sys/module/ged/parameters/boost_extra
 [ -f /sys/module/ged/parameters/gx_game_mode ] && echo 1 > /sys/module/ged/parameters/gx_game_mode
 [ -f /sys/module/ged/parameters/gx_boost_on ] && echo 1 > /sys/module/ged/parameters/gx_boost_on
+[ -f /sys/module/ged/parameters/ged_monitor_3D_fence_disable ] && echo 1 > /sys/module/ged/parameters/ged_monitor_3D_fence_disable
