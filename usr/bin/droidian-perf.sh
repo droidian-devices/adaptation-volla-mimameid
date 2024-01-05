@@ -36,3 +36,7 @@ mount -t cgroup -o schedtune stune /sys/fs/cgroup/schedtune
 [ -f /sys/devices/system/cpu/sched/sched_boost ] && echo 1 > /sys/devices/system/cpu/sched/sched_boost
 [ -f /proc/cpufreq/cpufreq_stress_test ] && echo 1 > /proc/cpufreq/cpufreq_stress_test
 [ -f /proc/gpufreq/gpufreq_opp_stress_test ] && echo 1 > /proc/gpufreq/gpufreq_opp_stress_test
+[ -f /sys/module/ged/parameters/boost_gpu_enable ] && echo 1 > /sys/module/ged/parameters/boost_gpu_enable
+[ -f /sys/module/ged/parameters/boost_extra ] && echo 1 > /sys/module/ged/parameters/boost_extra
+[ -f /sys/module/ged/parameters/gx_game_mode ] && echo 1 > /sys/module/ged/parameters/gx_game_mode
+[ -f /sys/module/ged/parameters/gx_boost_on ] && echo 1 > /sys/module/ged/parameters/gx_boost_on
