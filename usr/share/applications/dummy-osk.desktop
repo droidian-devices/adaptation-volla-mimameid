@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Dummy OSK
+GenericName=On Screen Keyboard
+Comment=A dummy on screen virtual keyboard
+Exec=/usr/bin/true
+Icon=input-keyboard-symbolic
+Terminal=false
+Type=Application
+NoDisplay=true
