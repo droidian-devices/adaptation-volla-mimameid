@@ -1,0 +1,11 @@
+[Unit]
+Description=Start squeekboard
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/squeekboard
+Restart=always
+RestartSec=2s
+
+[Install]
+WantedBy=default.target
